@@ -15,6 +15,9 @@ app.get("/", (req, res) => {
   res.send("Hello InvoiceTracker");
 });
 
+app.get("/react", (req, res) => {
+  res.send("Hello React");
+});
 mongoose
   .connect(process.env.MONGODB, {
     useNewUrlParser: true,

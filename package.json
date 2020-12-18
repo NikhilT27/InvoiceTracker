@@ -4,6 +4,7 @@
   "description": "Invoice Tracker Backend server",
   "main": "index.js",
   "license": "MIT",
+  "proxy": "https://fathomless-journey-86613.herokuapp.com",
   "engines": {
     "node": "12.x",
     "yarn": "1.22.4"
